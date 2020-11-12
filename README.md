@@ -156,7 +156,7 @@ Future Task(s):
     Create project resource in Eclipse workspace upon finishing wizard
     Associate JPF project properties with newly created project resource 
 
-extensions.JPG
+![alt text](https://github.com/mattkse/JPF-Eclipse-Tools/blob/main/extensions.JPG?raw=true)
 
 
 Post Date: 07/11
@@ -169,7 +169,7 @@ Future Task(s):
     Create project resource in Eclipse workspace upon finishing wizard
     Associate JPF project properties with newly created project resource 
 
-preferences.JPG
+![alt text](https://github.com/mattkse/JPF-Eclipse-Tools/blob/main/preferences.JPG?raw=true)
 
 
 Post Date: 07/05
@@ -245,7 +245,7 @@ Task: #2
 STATUS: Figured out how Eclipse resolves classpath discrepancies. Code almost implemented for JPF specific lookups (i.e. injecting source entries to be looked up). Lookup will be done similar to how Eclipse resolves normal standard library ambiguities (e.g. see ambiguous type "Action" in pic below) via a new context-menu item for a proof-of-concept. Expecting to push plug-in release for external testing in next 1-2 days.
 Notes: See the pics below for reference
 
-ambiguous_selection_dialog.JPG
+![alt text](https://github.com/mattkse/JPF-Eclipse-Tools/blob/main/ambiguous_selection_dialog.JPG?raw=true)
 
 
 Post Date: 06/09
@@ -254,11 +254,11 @@ Result: Eclipse appears to store source matchings exclusively for each project i
 Next task: #2
 Notes: See the pics below for reference
 
-attach_source3.JPG
+![alt text](https://github.com/mattkse/JPF-Eclipse-Tools/blob/main/attach_source3.JPG?raw=true)
 
-attach_source5.JPG
+![alt text](https://github.com/mattkse/JPF-Eclipse-Tools/blob/main/attach_source5.JPG?raw=true)
 
-open_declaration3.JPG
+![alt text](https://github.com/mattkse/JPF-Eclipse-Tools/blob/main/open_declaration3.JPG?raw=true)
 
 
 Post Date: 06/06
