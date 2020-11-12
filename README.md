@@ -143,7 +143,7 @@ Future Task(s):
     Create MJI editor UI
     Implement MJI editor logic 
 
-updated_preferences.JPG
+![alt text](https://github.com/mattkse/JPF-Eclipse-Tools/blob/main/updated_preferences.JPG?raw=true)
 
 
 Post Date: 07/18
