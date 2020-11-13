@@ -2,6 +2,8 @@
 
 JPF Eclipse Tools (JET) - copied from 2010 Google Summer of Code project
 
+JPF stands for Java Pathfinder - see https://en.wikipedia.org/wiki/Java_Pathfinder or https://ti.arc.nasa.gov/tech/rse/vandv/jpf/ for more information on JPF
+
 Watch this page for information regarding development status and plug-in releases of JET.
 
 Plug-in installation instructions:
