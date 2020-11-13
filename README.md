@@ -60,6 +60,7 @@ How to use the Jet Peer View feature
     Select "[JPF] Open Peer Implementation" 
 
 Afterwords, your editor should immediately switch to the corresponding peer class.
+
 How to use the site.properties editor feature
 
     Open Preferences (Window -> Preferences)
