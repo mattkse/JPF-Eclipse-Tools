@@ -1,6 +1,6 @@
 # JPF-Eclipse-Tools (JET)
 
-JPF Eclipse Tools (JET)
+JPF Eclipse Tools (JET) - copied from 2010 Google Summer of Code project
 
 Watch this page for information regarding development status and plug-in releases of JET.
 
@@ -266,3 +266,17 @@ Task: Investigated source code of eclipse-jpf, VJP, and Fugu (UIUC CS 427 projec
 Result: Better understanding of what each project accomplished and how they implemented functionality.
 Next Task: #1
 Notes: none
+
+
+Issue #2:
+
+Presumably, Eclipse searches the list of paths in the .classpath file (possibly for each project in workspace) from top to bottom in order to find a match for the currently selected element upon an open declaration action (F3).
+
+Once it is determined how Eclipse implements this navigation, it should be clear how to inject our own logic in order to specify model class source vs. standard library source when performing a lookup.
+
+
+Issue #1:
+
+Determine which (if any) components of [[http://babelfish.arc.nasa.gov/trac/jpf/wiki/projects/eclipse-jpf|eclipse-jpf]], [[http://visualjpf.sourceforge.net/|VJP]], and/or [[https://agora.cs.illinois.edu/display/cs427fa09/Navigating+JPF+Code+from+Eclipse|Fugu (UIUC CS 427 plugin)]] may be able to be used within JET.
+
+Took a look at VJP and Fugu. Fugu is seems to be a really basic proof of concept. The implementation mirrors what I have found in a few tutorials already, so the code will probably not be reused. VJP has some interesting extensions and organization; I may end up borrowing some code.
